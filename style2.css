@@ -1,0 +1,55 @@
+body{
+    background-color:#262626;
+    background-repeat:repeat;
+    background-position:left top;
+    background-attachment:scroll;
+    background-size:auto;
+  }
+  row{
+    display:table;
+    padding-top:10px;
+    padding-right:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    width:100%;
+  }
+
+  @media (max-width: 768px){
+    .cell{
+      width:100%;
+      display:block;
+
+    }}      
+
+#cab{
+        padding:10px;
+        font-family:Helvetica, sans-serif;
+        font-size:92px;
+        font-weight:700;
+        color:white;
+        line-height:180px;
+        text-align:center;
+        border-radius:0 0 0 0;
+        letter-spacing:-5px;
+        height:134px;
+        min-height:145px;
+      }
+
+#text2{
+        padding:8px 0 11px 22px;
+        text-align:center;
+        color:white;
+        font-size:26px;
+        font-family:Helvetica, sans-serif;
+      }
+
+#rodape{
+     
+        padding:10px;
+        text-align: center;
+        position: relative;
+        bottom: -250px;
+        color:white;
+        font-family:Helvetica, sans-serif;
+        font-size:16px;
+      }
